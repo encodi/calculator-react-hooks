@@ -1,0 +1,31 @@
+body {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  font-style: "Myriad Pro";
+}
+
+button {
+  height: 50px;
+  flex-basis: 25%;
+  background-color: #686868;
+  border: 1px solid #1c1c1c;
+  color: #ffffff;
+}
+
+button.fnZero {
+  flex-basis: 50%;
+}
+
+button.fnAC,
+button.fnPlusMinus,
+button.fnPercent {
+  background-color: #505050;
+}
+
+button.fnDiv,
+button.fnX,
+button.fnMin,
+button.fnPlus,
+button.fnEqual {
+  background-color: #ff9500;
+}
